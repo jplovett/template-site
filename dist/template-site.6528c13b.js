@@ -909,7 +909,7 @@ else window.addEventListener('load', startApp, {
     once: true
 });
 
-},{"bootstrap":"hjCRY","./app.js":"9f5IL","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","../config/settings.js":"9kTMs","../config/navRoutes.js":"c4GRO"}],"hjCRY":[function(require,module,exports,__globalThis) {
+},{"bootstrap":"hjCRY","../config/settings.js":"9kTMs","../config/navRoutes.js":"c4GRO","./app.js":"9f5IL","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"hjCRY":[function(require,module,exports,__globalThis) {
 /*!
   * Bootstrap v5.3.8 (https://getbootstrap.com/)
   * Copyright 2011-2025 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
@@ -6584,7 +6584,93 @@ var createPopper = /*#__PURE__*/ (0, _createPopperJs.popperGenerator)({
     defaultModifiers: defaultModifiers
 }); // eslint-disable-next-line import/no-unused-modules
 
-},{"./createPopper.js":"3NuA9","./modifiers/eventListeners.js":"b3l2h","./modifiers/popperOffsets.js":"iQIBA","./modifiers/computeStyles.js":"cU0Y8","./modifiers/applyStyles.js":"k3FfN","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"9f5IL":[function(require,module,exports,__globalThis) {
+},{"./createPopper.js":"3NuA9","./modifiers/eventListeners.js":"b3l2h","./modifiers/popperOffsets.js":"iQIBA","./modifiers/computeStyles.js":"cU0Y8","./modifiers/applyStyles.js":"k3FfN","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"9kTMs":[function(require,module,exports,__globalThis) {
+//src/config/settings.js
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+exports.default = {
+    title: 'JPLJ',
+    subTitle: 'Nilla router bootstrap app',
+    description: "This is a description for SEO purposes.",
+    keywords: "awesome, app, javascript, SEO",
+    tagline: "gotta love it",
+    thumbnail: '/assets/bruiserHeadSmall.png'
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"c4GRO":[function(require,module,exports,__globalThis) {
+// src/config/navRoutes.js
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+exports.default = {
+    home: {
+        Title: "Home",
+        rows: [
+            {
+                r1: {
+                    cols: 12,
+                    snip: "/snips/home1.html"
+                }
+            },
+            {
+                r2: {
+                    cols: 12,
+                    snip: "/snips/home2.html"
+                }
+            }
+        ]
+    },
+    about: {
+        Title: "About",
+        rows: [
+            {
+                r1: [
+                    {
+                        cols: 4,
+                        snip: "/snips/about1a-list.html"
+                    },
+                    {
+                        cols: 4,
+                        snip: "/snips/about1b-text.html"
+                    },
+                    {
+                        cols: 4,
+                        snip: "/snips/about1c-img.html"
+                    }
+                ]
+            }
+        ]
+    },
+    product: {
+        Title: "Products",
+        rows: [
+            {
+                r1: {
+                    cols: 12,
+                    snip: "/snips/products.html"
+                }
+            }
+        ]
+    },
+    contact: {
+        Title: "Contact",
+        rows: [
+            {
+                r1: {
+                    cols: 12,
+                    snip: "/snips/contact1.html"
+                }
+            },
+            {
+                r2: {
+                    cols: 12,
+                    snip: "/snips/contact2.html"
+                }
+            }
+        ]
+    }
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"9f5IL":[function(require,module,exports,__globalThis) {
 // src/js/header.js
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
@@ -6685,92 +6771,6 @@ function buildFooter() {
                      </span></div>`;
 }
 
-},{"bootstrap":"hjCRY","../config/navRoutes.js":"c4GRO","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","../config/settings.js":"9kTMs"}],"c4GRO":[function(require,module,exports,__globalThis) {
-// src/config/navRoutes.js
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-exports.default = {
-    home: {
-        Title: "Home",
-        rows: [
-            {
-                r1: {
-                    cols: 12,
-                    snip: "/snips/home1.html"
-                }
-            },
-            {
-                r2: {
-                    cols: 12,
-                    snip: "/snips/home2.html"
-                }
-            }
-        ]
-    },
-    about: {
-        Title: "About",
-        rows: [
-            {
-                r1: [
-                    {
-                        cols: 4,
-                        snip: "/snips/about1a-list.html"
-                    },
-                    {
-                        cols: 4,
-                        snip: "/snips/about1b-text.html"
-                    },
-                    {
-                        cols: 4,
-                        snip: "/snips/about1c-img.html"
-                    }
-                ]
-            }
-        ]
-    },
-    product: {
-        Title: "Products",
-        rows: [
-            {
-                r1: {
-                    cols: 12,
-                    snip: "/snips/products.html"
-                }
-            }
-        ]
-    },
-    contact: {
-        Title: "Contact",
-        rows: [
-            {
-                r1: {
-                    cols: 12,
-                    snip: "/snips/contact1.html"
-                }
-            },
-            {
-                r2: {
-                    cols: 12,
-                    snip: "/snips/contact2.html"
-                }
-            }
-        ]
-    }
-};
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"9kTMs":[function(require,module,exports,__globalThis) {
-//src/config/settings.js
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-exports.default = {
-    title: 'JPLJ',
-    subTitle: 'Nilla router bootstrap app',
-    description: "This is a description for SEO purposes.",
-    keywords: "awesome, app, javascript, SEO",
-    tagline: "gotta love it",
-    thumbnail: '/assets/bruiserHeadSmall.png'
-};
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["6DHTQ","6kb64"], "6kb64", "parcelRequire1b4a", {})
+},{"bootstrap":"hjCRY","../config/settings.js":"9kTMs","../config/navRoutes.js":"c4GRO","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["6DHTQ","6kb64"], "6kb64", "parcelRequire1b4a", {})
 
 //# sourceMappingURL=template-site.6528c13b.js.map

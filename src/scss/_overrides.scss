@@ -1,14 +1,7 @@
 // src/scss/_overrides.scss
-
-// Tweak container padding if you want fluid spacing
-$container-padding-x: 1rem !default;
-
-// Navbar toggler icon style (uses Bootstrap variables)
-$navbar-toggler-icon-bg: none !default;
-
-// Brand/thumb defaults you can reference in your components
-$brand-thumb-size: 48px !default;
-$brand-thumb-radius: 6px !default;
+a:hover {
+    cursor: pointer;
+}
 
 // Snip fade-in animation: starts slightly translated and transparent, then eases to place
 .snip-fade {
@@ -27,3 +20,13 @@ $brand-thumb-radius: 6px !default;
     outline: 2px dashed rgba(0, 123, 255, 0.4);
     outline-offset: 2px;
 }
+
+// Tweak container padding if you want fluid spacing
+$container-padding-x: 1rem !default;
+
+// Navbar toggler icon style (uses Bootstrap variables)
+$navbar-toggler-icon-bg: none !default;
+
+// Brand/thumb defaults you can reference in your components
+$brand-thumb-size: 48px !default;
+$brand-thumb-radius: 6px !default;

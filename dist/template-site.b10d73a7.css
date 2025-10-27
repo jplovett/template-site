@@ -13180,6 +13180,10 @@ textarea.form-control-lg {
   }
 }
 
+a:hover {
+  cursor: pointer;
+}
+
 .snip-fade {
   opacity: 1;
   transition: opacity .32s cubic-bezier(.2, .8, .2, 1), transform .32s cubic-bezier(.2, .8, .2, 1);
