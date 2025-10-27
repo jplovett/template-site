@@ -1,0 +1,29 @@
+// src/scss/_overrides.scss
+
+// Tweak container padding if you want fluid spacing
+$container-padding-x: 1rem !default;
+
+// Navbar toggler icon style (uses Bootstrap variables)
+$navbar-toggler-icon-bg: none !default;
+
+// Brand/thumb defaults you can reference in your components
+$brand-thumb-size: 48px !default;
+$brand-thumb-radius: 6px !default;
+
+// Snip fade-in animation: starts slightly translated and transparent, then eases to place
+.snip-fade {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 320ms cubic-bezier(.2, .8, .2, 1), transform 320ms cubic-bezier(.2, .8, .2, 1);
+}
+
+.snip-fade--init {
+    opacity: 0;
+    transform: translateY(8px);
+}
+
+/* subtle focus outline for keyboard users inside snips */
+.snip-fade :focus {
+    outline: 2px dashed rgba(0, 123, 255, 0.4);
+    outline-offset: 2px;
+}

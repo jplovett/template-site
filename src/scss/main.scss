@@ -1,0 +1,99 @@
+
+
+@import "bootstrap/scss/bootstrap";
+@import 'bsVars';
+@import "overrides"; // relative to this folder; Parcel resolves src/scss/_overrides.scss
+
+body {
+  background-color: $primary;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  color: $light;
+  margin: 0;
+  padding: 0;
+}
+
+
+// Brand and header tweaks
+.brand-thumb {
+  width: $brand-thumb-size;
+  height: $brand-thumb-size;
+  object-fit: cover;
+  border-radius: $brand-thumb-radius;
+}
+
+.navbar-expand-custom {
+
+  // Use breakpoint consistent with $grid-breakpoints lg (1000px)
+  @media (min-width: 1000px) {
+    .collapse {
+      display: flex !important;
+      flex-basis: auto;
+    }
+
+    .navbar-toggler {
+      display: none;
+    }
+
+    /* Ensure nav items lay out horizontally on wider screens */
+    .navbar-nav {
+      display: flex !important;
+      flex-direction: row !important;
+      align-items: center;
+      margin-left: auto;
+      /* preserve ms-auto behaviour */
+    }
+
+    .navbar-nav .nav-item {
+      margin: 0 0.5rem;
+    }
+
+  }
+
+  @media (max-width: 999px) {
+    .collapse {
+      display: none;
+    }
+
+    .collapse.show {
+      display: block;
+    }
+
+    .navbar-toggler {
+      display: inline-block;
+    }
+
+    .navbar-nav {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .navbar-nav .nav-item {
+      margin: 0.25rem 0;
+    }
+
+  }
+}
+
+// Active link
+a.nav-link.active {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+// small layout helpers
+.site-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.brand-text .site-title {
+  margin: 0;
+  font-size: 1.125rem;
+}
+
+.brand-text .site-sub {
+  font-size: 0.85rem;
+  color: $muted;
+}

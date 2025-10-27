@@ -1,0 +1,30 @@
+{
+  "name": "template-site",
+  "version": "1.0.0",
+  "description": "default web app site project",
+  "scripts": {
+    "dev": "parcel src/index.html --open",
+    "clean": "rimraf dist .parcel-cache",
+    "clean:build": "rimraf dist .parcel-cache && parcel build src/index.html --dist-dir dist --public-url ./ && npm run dev",
+    "build": "parcel build src/index.html --dist-dir dist --public-url ./ && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jplovett/template-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jplovett/template-site/issues"
+  },
+  "homepage": "https://github.com/jplovett/template-site#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "rimraf": "^6.0.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.0",
+    "parcel": "^2.16.0"
+  }
+}

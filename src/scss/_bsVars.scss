@@ -1,0 +1,23 @@
+$primary: #003057;
+$secondary: #a9a9a9;
+$success: #0b6f0b;
+$info: #b0c4de;
+$warning: #bdb76b;
+$danger: #b22222;
+$light: #eeeeee;
+$dark: #121212;
+$muted: #888888;
+
+// Custom breakpoints: collapse below 1000px (so navbar is expanded at >=1000px)
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 1000px,
+    xl: 1200px,
+    xxl: 1400px) !default;
+
+// Any other Bootstrap variables you want to override can go here
+$body-bg: $light;
+$link-hover-color: darken($primary, 6%
+);
