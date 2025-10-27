@@ -1,4 +1,4 @@
-4887
+4889
 87C:\Users\Pops\OneDrive\.1620\template-site\node_modules\@parcel\reporter-dev-server\src134060409331708236 1
 73C:\Users\Pops\OneDrive\.1620\template-site\node_modules\@msgpackr-extract134060461082306396 1
 83C:\Users\Pops\OneDrive\.1620\template-site\node_modules\lru-cache\dist\esm\index.js134060371133284541 0
@@ -8,7 +8,7 @@
 87C:\Users\Pops\OneDrive\.1620\template-site\node_modules\caniuse-lite\data\regions\HK.js134060370566553681 0
 83C:\Users\Pops\OneDrive\.1620\template-site\node_modules\@parcel\transformer-css\src134060409335072776 1
 55C:\Users\Pops\OneDrive\.1620\template-site\package.json134060461082337644 0
-47C:\Users\Pops\OneDrive\.1620\template-site\dist134060622134667684 1
+47C:\Users\Pops\OneDrive\.1620\template-site\dist134060625375728323 1
 62C:\Users\Pops\OneDrive\.1620\template-site\node_modules\base-x134060409163755388 1
 67C:\Users\Pops\OneDrive\.1620\template-site\node_modules\cross-spawn134060409166000848 1
 53C:\Users\Pops\OneDrive\.1620\template-site\src\config134060409185020878 1
@@ -16,7 +16,7 @@
 87C:\Users\Pops\OneDrive\.1620\template-site\node_modules\path-scurry\dist\esm\index.d.ts134060371134078676 0
 102C:\Users\Pops\OneDrive\.1620\template-site\node_modules\@swc\helpers\src\_class_private_method_get.mjs134060370566037637 0
 102C:\Users\Pops\OneDrive\.1620\template-site\node_modules\wrap-ansi-cjs\node_modules\strip-ansi\index.js134060371132831168 0
-53C:\Users\Pops\OneDrive\.1620\template-site\.gitignore134060369840955012 0
+53C:\Users\Pops\OneDrive\.1620\template-site\.gitignore134060627602106359 0
 94C:\Users\Pops\OneDrive\.1620\template-site\node_modules\bootstrap\scss\helpers\_icon-link.scss134060370979992327 0
 72C:\Users\Pops\OneDrive\.1620\template-site\node_modules\foreground-child134060409168945093 1
 71C:\Users\Pops\OneDrive\.1620\template-site\node_modules\shebang-command134060409180451185 1
@@ -80,7 +80,7 @@
 52C:\Users\Pops\OneDrive\.1620\template-site\src\comps134060409538656813 1
 66C:\Users\Pops\OneDrive\.1620\template-site\node_modules\color-name134060409165732330 1
 72C:\Users\Pops\OneDrive\.1620\template-site\node_modules\lmdb\index.d.cts134060370561567403 0
-56C:\Users\Pops\OneDrive\.1620\template-site\src\js\app.js134060622132441054 0
+56C:\Users\Pops\OneDrive\.1620\template-site\src\js\app.js134060625370585077 0
 57C:\Users\Pops\OneDrive\.1620\template-site\src\index.html134060618726718591 0
 83C:\Users\Pops\OneDrive\.1620\template-site\node_modules\strip-ansi-cjs\package.json134060371132934926 0
 74C:\Users\Pops\OneDrive\.1620\template-site\node_modules\strip-ansi\license134060371132665794 0
@@ -2309,7 +2309,7 @@
 97C:\Users\Pops\OneDrive\.1620\template-site\node_modules\caniuse-lite\data\features\css-subgrid.js134060370564078131 0
 66C:\Users\Pops\OneDrive\.1620\template-site\node_modules\json5\dist134060409248297218 1
 65C:\Users\Pops\OneDrive\.1620\template-site\node_modules\json5\lib134060409248448843 1
-74C:\Users\Pops\OneDrive\.1620\template-site\dist\favicon-32x32.a2ea98cd.png134060621732981862 0
+74C:\Users\Pops\OneDrive\.1620\template-site\dist\favicon-32x32.a2ea98cd.png134060625375371016 0
 74C:\Users\Pops\OneDrive\.1620\template-site\node_modules\json5\package.json134060370557783334 0
 86C:\Users\Pops\OneDrive\.1620\template-site\node_modules\bootstrap\js\dist\offcanvas.js134060370977392231 0
 101C:\Users\Pops\OneDrive\.1620\template-site\node_modules\@parcel\transformer-css\src\CSSTransformer.js134060370554550668 0
@@ -2602,7 +2602,7 @@
 71C:\Users\Pops\OneDrive\.1620\template-site\node_modules\cross-spawn\lib134060409246323115 1
 70C:\Users\Pops\OneDrive\.1620\template-site\node_modules\@swc\helpers\_134060409434207435 1
 76C:\Users\Pops\OneDrive\.1620\template-site\node_modules\@swc\helpers\_\index134060409434401718 1
-73C:\Users\Pops\OneDrive\.1620\template-site\dist\template-site.6528c13b.js134060622134529773 0
+73C:\Users\Pops\OneDrive\.1620\template-site\dist\template-site.6528c13b.js134060625375664706 0
 111C:\Users\Pops\OneDrive\.1620\template-site\node_modules\@parcel\error-overlay\src\effects\unhandledRejection.js134060370559391990 0
 97C:\Users\Pops\OneDrive\.1620\template-site\node_modules\@parcel\optimizer-css\src\CSSOptimizer.js134060370554550668 0
 87C:\Users\Pops\OneDrive\.1620\template-site\node_modules\caniuse-lite\data\regions\PT.js134060370569400958 0
@@ -2638,6 +2638,7 @@
 79C:\Users\Pops\OneDrive\.1620\template-site\node_modules\color-convert\README.md134060370555394102 0
 92C:\Users\Pops\OneDrive\.1620\template-site\node_modules\@parcel\optimizer-image\package.json134060370554370994 0
 84C:\Users\Pops\OneDrive\.1620\template-site\node_modules\chrome-trace-event\README.md134060370554694932 0
+77C:\Users\Pops\OneDrive\.1620\template-site\dist\template-site.d6513a14.js.map134060622221950029 0
 89C:\Users\Pops\OneDrive\.1620\template-site\node_modules\caniuse-lite\data\features\aac.js134060370554085886 0
 104C:\Users\Pops\OneDrive\.1620\template-site\node_modules\@swc\helpers\_\_non_iterable_spread\package.json134060370564738139 0
 96C:\Users\Pops\OneDrive\.1620\template-site\node_modules\chrome-trace-event\dist\trace-event.d.ts134060370555068895 0
@@ -4861,7 +4862,7 @@
 83C:\Users\Pops\OneDrive\.1620\template-site\node_modules\.bin\update-browserslist-db134060370572370385 0
 87C:\Users\Pops\OneDrive\.1620\template-site\node_modules\.bin\update-browserslist-db.cmd134060370572370385 0
 87C:\Users\Pops\OneDrive\.1620\template-site\node_modules\.bin\update-browserslist-db.ps1134060370572370385 0
-58C:\Users\Pops\OneDrive\.1620\template-site\dist\index.html134060621732981862 0
+58C:\Users\Pops\OneDrive\.1620\template-site\dist\index.html134060625375402347 0
 53C:\Users\Pops\OneDrive\.1620\template-site\dist\snips134060481232684281 1
 78C:\Users\Pops\OneDrive\.1620\template-site\dist\template-site.08d7e3a4.css.map134060469842937273 0
 77C:\Users\Pops\OneDrive\.1620\template-site\dist\template-site.0da2d3f6.js.map134060621128693735 0
@@ -4875,12 +4876,13 @@
 77C:\Users\Pops\OneDrive\.1620\template-site\dist\template-site.2daf6784.js.map134060463763320793 0
 73C:\Users\Pops\OneDrive\.1620\template-site\dist\template-site.377e6877.js134060612584472149 0
 73C:\Users\Pops\OneDrive\.1620\template-site\dist\template-site.5ddc410e.js134060469842738681 0
-77C:\Users\Pops\OneDrive\.1620\template-site\dist\template-site.6528c13b.js.map134060622134645143 0
+77C:\Users\Pops\OneDrive\.1620\template-site\dist\template-site.6528c13b.js.map134060625375728323 0
 73C:\Users\Pops\OneDrive\.1620\template-site\dist\template-site.78ab7388.js134060579338476718 0
-74C:\Users\Pops\OneDrive\.1620\template-site\dist\template-site.b10d73a7.css134060621732920465 0
-78C:\Users\Pops\OneDrive\.1620\template-site\dist\template-site.b10d73a7.css.map134060621733072483 0
+74C:\Users\Pops\OneDrive\.1620\template-site\dist\template-site.b10d73a7.css134060625375371016 0
+78C:\Users\Pops\OneDrive\.1620\template-site\dist\template-site.b10d73a7.css.map134060625375728323 0
 73C:\Users\Pops\OneDrive\.1620\template-site\dist\template-site.b4c5ca63.js134060575470841800 0
 77C:\Users\Pops\OneDrive\.1620\template-site\dist\template-site.b4c5ca63.js.map134060575471076720 0
+73C:\Users\Pops\OneDrive\.1620\template-site\dist\template-site.d6513a14.js134060622221645244 0
 73C:\Users\Pops\OneDrive\.1620\template-site\dist\template-site.edb62030.js134060574018403938 0
 77C:\Users\Pops\OneDrive\.1620\template-site\dist\template-site.edb62030.js.map134060574018562180 0
 64C:\Users\Pops\OneDrive\.1620\template-site\dist\snips\home2.html134060479809220444 0
